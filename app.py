@@ -1,6 +1,6 @@
 from flask import Flask, render_template, request, jsonify
 import os
-from utils.posture_blink_detection import process_video
+from posture_blink_detection import process_video
 
 app = Flask(__name__)
 
